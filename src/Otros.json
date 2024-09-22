@@ -471,124 +471,124 @@
     ],
     "concursos": [
         {
-            "Programa": "Ingeniería Mecatrónica",
-            "Nombre": "Automatización",
+            "PROGRAMA": "Ingeniería Mecatrónica",
+            "NOMBRE": "Automatización",
             "FECHA": "2024-09-18 00:00:00",
             "HORA": "Premiación Jueves 21 de septiembre en la explanada de IIT a las 14:00 horas",
-            "Instructor": "DR. Luis R. Vidal y Dra. Alma Guadalupe Rodriguez Ramirez",
-            "Correo": ""
+            "INSTRUCTOR": "DR. Luis R. Vidal y Dra. Alma Guadalupe Rodriguez Ramirez",
+            "CORREO": ""
         },
         {
-            "Programa": "Ingeniería Mecatrónica",
-            "Nombre": "Automatización",
+            "PROGRAMA": "Ingeniería Mecatrónica",
+            "NOMBRE": "Automatización",
             "FECHA": "2024-09-19 00:00:00",
             "HORA": "Premiación Jueves 21 de septiembre en la explanada de IIT a las 14:00 horas",
-            "Instructor": "DR. Luis R. Vidal y Dra. Alma Guadalupe Rodriguez Ramirez",
-            "Correo": ""
+            "INSTRUCTOR": "DR. Luis R. Vidal y Dra. Alma Guadalupe Rodriguez Ramirez",
+            "CORREO": ""
         },
         {
-            "Programa": "Ingeniería Mecatrónica",
-            "Nombre": "Robot Mini sumo",
+            "PROGRAMA": "Ingeniería Mecatrónica",
+            "NOMBRE": "Robot Mini sumo",
             "FECHA": "2024-09-20 00:00:00",
             "HORA": "",
-            "Instructor": "Dr. Manuel de Jesus Nandayapa Alfaro y Dra. Elva Lilia Reynoso Jardon",
-            "Correo": ""
+            "INSTRUCTOR": "Dr. Manuel de Jesus Nandayapa Alfaro y Dra. Elva Lilia Reynoso Jardon",
+            "CORREO": ""
         },
         {
-            "Programa": "Ingeniería Mecatrónica",
-            "Nombre": "Diseño de Drones",
+            "PROGRAMA": "Ingeniería Mecatrónica",
+            "NOMBRE": "Diseño de Drones",
             "FECHA": "2024-09-21 00:00:00",
             "HORA": "",
-            "Instructor": "Dr. Arturo Paz Perez",
-            "Correo": ""
+            "INSTRUCTOR": "Dr. Arturo Paz Perez",
+            "CORREO": ""
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
             "FECHA": "2024-09-23 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 16.00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Concurso de Construcción de Estructuras Mecánicas",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Concurso de Construcción de Estructuras Mecánicas",
             "FECHA": "2024-09-23 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 15:00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
             "FECHA": "2024-09-24 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 16.00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Concurso de Construcción de Estructuras Mecánicas",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Concurso de Construcción de Estructuras Mecánicas",
             "FECHA": "2024-09-24 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 15:00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Aeronáutica",
-            "Nombre": "Concurso de prototipos didácticos y de aplicaciones en Ingeniería",
+            "PROGRAMA": "Ingeniería Aeronáutica",
+            "NOMBRE": "Concurso de prototipos didácticos y de aplicaciones en Ingeniería",
             "FECHA": "2024-09-24 00:00:00",
             "HORA": "16:00-19:00",
-            "Instructor": "Dr. Diego Moisés Almazo Pérez, Dr. Delfino Cornejo Monroy, Dr.  Carlos Alberto Gómez Álvarez",
-            "Correo": "diego.almazo@uacj.mx; delfino.cornejo@uacj.mx; carlos.gomez@uacj.mx"
+            "INSTRUCTOR": "Dr. Diego Moisés Almazo Pérez, Dr. Delfino Cornejo Monroy, Dr.  Carlos Alberto Gómez Álvarez",
+            "CORREO": "diego.almazo@uacj.mx; delfino.cornejo@uacj.mx; carlos.gomez@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
             "FECHA": "2024-09-25 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 16.00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Concurso de Construcción de Estructuras Mecánicas",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Concurso de Construcción de Estructuras Mecánicas",
             "FECHA": "2024-09-25 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 15:00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Aeronáutica",
-            "Nombre": "Aeronaves de Ala Fija",
+            "PROGRAMA": "Ingeniería Aeronáutica",
+            "NOMBRE": "Aeronaves de Ala Fija",
             "FECHA": "2024-09-25 00:00:00",
             "HORA": "18:00-19:00",
-            "Instructor": "Dr. Arturo Paz Perez",
-            "Correo": "arturo.paz@uacj.mx"
+            "INSTRUCTOR": "Dr. Arturo Paz Perez",
+            "CORREO": "arturo.paz@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Diseño de Mecanismos: Partiendo de Máquinas Simples",
             "FECHA": "2024-09-26 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 16.00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingeniería Mecánica ",
-            "Nombre": "Concurso de Construcción de Estructuras Mecánicas",
+            "PROGRAMA": "Ingeniería Mecánica ",
+            "NOMBRE": "Concurso de Construcción de Estructuras Mecánicas",
             "FECHA": "2024-09-26 00:00:00",
             "HORA": "Premiación Jueves 26 de septiembre en la explanada de IIT a las 15:00 horas",
-            "Instructor": "Dra. Manuela Alejandra Zalapa Garibay",
-            "Correo": "manuela.zalapa@uacj.mx"
+            "INSTRUCTOR": "Dra. Manuela Alejandra Zalapa Garibay",
+            "CORREO": "manuela.zalapa@uacj.mx"
         },
         {
-            "Programa": "Ingenieria Industrial",
-            "Nombre": "Innova-Emprende 2024",
+            "PROGRAMA": "Ingenieria Industrial",
+            "NOMBRE": "Innova-Emprende 2024",
             "FECHA": "2024-09-26 00:00:00",
             "HORA": "Exposición de proyectos de 11-14 horas en Plaza de la Fraternidad",
-            "Instructor": "Dra. Georgina Rios Velasco, Dr. Andrés Hernández Gómez y Mtra. Oralia Solano Maya",
-            "Correo": "georgina.riosvelasco@uacj.mx"
+            "INSTRUCTOR": "Dra. Georgina Rios Velasco, Dr. Andrés Hernández Gómez y Mtra. Oralia Solano Maya",
+            "CORREO": "georgina.riosvelasco@uacj.mx"
         }
     ],
     "actividades deportivas": [
@@ -597,7 +597,7 @@
             "EVENTO": "Torneo relampago futbol 5x5",
             "HORA": "12:00-17:00",
             "LUGAR": "Canchas IIT/IADA",
-            "RESPONSAGLE": "Lic. Maria Guadalupe Salcido Holguin",
+            "RESPONSABLE": "Lic. Maria Guadalupe Salcido Holguin",
             "CORREO ELECTRÓNICO DEL RESPONSABLE": "maria.salcido@uacj.mx"
         },
         {
@@ -605,7 +605,7 @@
             "EVENTO": "Torneo relampago basquetbol 3x3",
             "HORA": "12:00 - 15:00",
             "LUGAR": "Canchas IIT/IADA",
-            "RESPONSAGLE": "Lic. Maria Guadalupe Salcido Holguin",
+            "RESPONSABLE": "Lic. Maria Guadalupe Salcido Holguin",
             "CORREO ELECTRÓNICO DEL RESPONSABLE": "maria.salcido@uacj.mx"
         },
         {
@@ -613,7 +613,7 @@
             "EVENTO": "Carpa LED",
             "HORA": "9:00 - 12:00",
             "LUGAR": "Explanada IIT",
-            "RESPONSAGLE": "Dr. ",
+            "RESPONSABLE": "Dr. ",
             "CORREO ELECTRÓNICO DEL RESPONSABLE": ""
         },
         {
@@ -621,7 +621,7 @@
             "EVENTO": "Torneo relampago de voleibol mixto ",
             "HORA": "12:00 - 16:00",
             "LUGAR": "Canchas IIT/IADA",
-            "RESPONSAGLE": "Lic. Maria Guadalupe Salcido Holguin",
+            "RESPONSABLE": "Lic. Maria Guadalupe Salcido Holguin",
             "CORREO ELECTRÓNICO DEL RESPONSABLE": "maria.salcido@uacj.mx"
         },
         {
@@ -629,7 +629,7 @@
             "EVENTO": "Carrera pedestre ",
             "HORA": "9:00 - 12:00",
             "LUGAR": "Canchas IIT/IADA",
-            "RESPONSAGLE": "Lic. Maria Guadalupe Salcido Holguin",
+            "RESPONSABLE": "Lic. Maria Guadalupe Salcido Holguin",
             "CORREO ELECTRÓNICO DEL RESPONSABLE": "maria.salcido@uacj.mx"
         }
     ]

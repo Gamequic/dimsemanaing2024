@@ -7,14 +7,10 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import './App.css';
 
-import SearchTableCONREDES from './components/table/SeachTableCONREDES';
-import SearchTableConferencias from './components/table/SearchTableConferencias';
-import SearchTableTalleresCursos from './components/table/SearchTableTalleresCursos';
+import CollapsibleTable from './components/Table';
 
 import ConferenciasData from './Conferencias.json';
 import Otros from './Otros.json'
-import SearchTableConcursos from './components/table/SearchTableConcursos';
-import SearchTableActividadesDeportivas from './components/table/SearchTableActividadesDeportivas';
 
 function App() {
   return (
@@ -36,62 +32,138 @@ function App() {
               Conferencias
             </AccordionSummary>
             <AccordionDetails>
-              <SearchTableConferencias data={ConferenciasData['23 SEPTIEMBRE']} title={'23 de septiembre'} />
-              <SearchTableConferencias data={ConferenciasData['24 SEPTIEMBRE']} title={'24 de septiembre'} />
-              <SearchTableConferencias data={ConferenciasData['25 SEPTIEMBRE']} title={'25 de septiembre'} />
-              <SearchTableCONREDES data={ConferenciasData['25 SEPTIEMBRE CONREDES']} title={'25 de septiembre Evento CONREDES'} >
+              <CollapsibleTable
+                title={'23 SEPTIEMBRE'}
+                headers={{
+                  Programa: true,
+                  Conferencia: true,
+                  Fecha: true,
+                  Hora: true,
+                  Lugar: true,
+                  Conferencista: false,
+                  Empresa: false,
+                  "MAESTROS DE CEREMONIAS Y RESPONSABLES DE CONFERENCIA": false,
+                  Liga: false,
+                }}
+                eventsData={ConferenciasData['23 SEPTIEMBRE']}
+              />
+              <CollapsibleTable
+                title={'24 SEPTIEMBRE'}
+                headers={{
+                  Programa: true,
+                  Conferencia: true,
+                  Fecha: true,
+                  Hora: true,
+                  Lugar: true,
+                  Conferencista: false,
+                  Empresa: false,
+                  "MAESTROS DE CEREMONIAS Y RESPONSABLES DE CONFERENCIA": false,
+                  Liga: false,
+                }}
+                eventsData={ConferenciasData['24 SEPTIEMBRE']}
+              />
+              <CollapsibleTable
+                title={'25 SEPTIEMBRE'}
+                headers={{
+                  Programa: true,
+                  Conferencia: true,
+                  Fecha: true,
+                  Hora: true,
+                  Lugar: true,
+                  Conferencista: false,
+                  Empresa: false,
+                  "MAESTROS DE CEREMONIAS Y RESPONSABLES DE CONFERENCIA": false,
+                  Liga: false,
+                }}
+                eventsData={ConferenciasData['25 SEPTIEMBRE']}
+              />
+              <CollapsibleTable
+                title={'25 de septiembre Evento CONREDES'}
+                headers={{
+                  Conferencia: true,
+                  Fecha: true,
+                  Hora: true,
+                  Lugar: true,
+                  Conferencista: false,
+                  Empresa: false,
+                  "MAESTROS DE CEREMONIAS Y RESPONSABLES DE CONFERENCIA": false,
+                }}
+                eventsData={ConferenciasData['25 SEPTIEMBRE CONREDES']}
+              >
                 <h2>Folletos</h2>
                 <ImageViewer></ImageViewer>
-              </SearchTableCONREDES>
-              <SearchTableConferencias data={ConferenciasData['26 SEPTIEMBRE']} title={'26 de septiembre'} />
-              <SearchTableConferencias data={ConferenciasData['26 SEPTIEMBRE']} title={'27 de septiembre'} />
+              </CollapsibleTable>
+              <CollapsibleTable
+                title={'26 SEPTIEMBRE'}
+                headers={{
+                  Programa: true,
+                  Conferencia: true,
+                  Fecha: true,
+                  Hora: true,
+                  Lugar: true,
+                  Conferencista: false,
+                  Empresa: false,
+                  "MAESTROS DE CEREMONIAS Y RESPONSABLES DE CONFERENCIA": false,
+                  Liga: false,
+                }}
+                eventsData={ConferenciasData['26 SEPTIEMBRE']}
+              />
+              <CollapsibleTable
+                title={'27 SEPTIEMBRE'}
+                headers={{
+                  Programa: true,
+                  Conferencia: true,
+                  Fecha: true,
+                  Hora: true,
+                  Lugar: true,
+                  Conferencista: false,
+                  Empresa: false,
+                  "MAESTROS DE CEREMONIAS Y RESPONSABLES DE CONFERENCIA": false,
+                  Liga: false,
+                }}
+                eventsData={ConferenciasData['27 SEPTIEMBRE']}
+              />
             </AccordionDetails>
           </Accordion>
-          {/* <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2-content"
-              id="panel2-header"
-            >
-              Talleres y cursos
-            </AccordionSummary>
-            <AccordionDetails> */}
-              <SearchTableTalleresCursos
-                title={"Talleres y cursos"}
-                data={Otros['talleres y cursos']}
-              />
-            {/* </AccordionDetails>
-          </Accordion> */}
-          {/* <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2-content"
-              id="panel2-header"
-            >
-              Concursos
-            </AccordionSummary>
-            <AccordionDetails> */}
-              <SearchTableConcursos
-                title={"Concursos"}
-                data={Otros.concursos}
-              />
-            {/* </AccordionDetails>
-          </Accordion> */}
-          {/* <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2-content"
-              id="panel2-header"
-            >
-              Actividades deportivas
-            </AccordionSummary>
-            <AccordionDetails> */}
-              <SearchTableActividadesDeportivas
-                title={'Activadades Deportivas'}
-                data={Otros['actividades deportivas']}
-              />
-            {/* </AccordionDetails>
-          </Accordion> */}
+          <CollapsibleTable
+            title={'Talleres y cursos'}
+            headers={{
+              Programa: true,
+              Tema: true,
+              Fecha: true,
+              Hora: true,
+              Conferencista: false,
+              Empresa: false,
+              "MAESTROS DE CEREMONIAS": false,
+              "RESPONSABLES DE CONFERENCIA": false,
+              "CORREO ELECTRÓNICO DEL RESPONSABLE": false,
+              "CORREO ELECTRÓNICO DEL CONFERENCISTA": false
+            }}
+            eventsData={Otros['talleres y cursos']}
+          />
+          <CollapsibleTable
+            title={'Concursos'}
+            headers={{
+              Programa: true,
+              Nombre: true,
+              Fecha: true,
+              Hora: true,
+              Instructor: false,
+              Correo: false
+            }}
+            eventsData={Otros.concursos}
+          />
+          <CollapsibleTable
+            title={'Activadades Deportivas'}
+            headers={{
+              Evento: true,
+              Fecha: true,
+              Hora: true,
+              Responsable: false,
+              "Correo electrónico del responsable": false
+            }}
+            eventsData={Otros['actividades deportivas']}
+          />
         </main>
       </div>
     </>
