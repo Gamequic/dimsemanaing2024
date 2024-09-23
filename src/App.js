@@ -22,43 +22,11 @@ function App() {
       <div className='backgroundDecoration' />
       <div className="App">
         <header className="App-header">
-          <img src={`${process.env.PUBLIC_URL}/Header.png`} alt="Descripción" />
+          <img className="Header" src={`${process.env.PUBLIC_URL}/Header.png`} alt="Descripción" />
+          <img className="Logo" src={`${process.env.PUBLIC_URL}/logo512.png`} alt="Logo" />
         </header>
         <main>
-          {/* <h1>XXX Semana de ingeniería<br /> Conferencias del departamento de ingeniería industrial y manufactura</h1> */}
-          {/* <section>
-            <AccordionItem
-              title={'Conferencias'}
-            >
-              <SearchTable data={ConferenciasData['23 SEPTIEMBRE']} title={'23 de septiembre'} />
-              <SearchTable data={ConferenciasData['24 SEPTIEMBRE']} title={'24 de septiembre'} />
-              <SearchTable data={ConferenciasData['25 SEPTIEMBRE']} title={'25 de septiembre'} />
-              <SearchTableCONREDES data={ConferenciasData['25 SEPTIEMBRE CONREDES']} title={'25 de septiembre Evento CONREDES'} >
-                <h2>Folletos</h2>
-                <ImageViewer></ImageViewer>
-              </SearchTableCONREDES>
-              <SearchTable data={ConferenciasData['26 SEPTIEMBRE']} title={'26 de septiembre'} />
-              <SearchTable data={ConferenciasData['26 SEPTIEMBRE']} title={'27 de septiembre'} />
-            </AccordionItem>
-            <AccordionItem
-              title={'Concursos'}
-              orientation='horizontal'
-            >
-              
-            </AccordionItem>
-            <AccordionItem
-              title={'Talleres y cursos'}
-              orientation='horizontal'
-            >
-              
-            </AccordionItem>
-            <AccordionItem
-              title={'Actividades deportivas'}
-              orientation='horizontal'
-            >
-              
-            </AccordionItem> */}
-          {/* </section> */}
+          <h1>XXX Semana de ingeniería<br /> Conferencias del departamento de ingeniería industrial y manufactura</h1>
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
